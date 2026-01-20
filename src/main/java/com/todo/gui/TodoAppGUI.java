@@ -133,7 +133,10 @@ public class TodoAppGUI extends JFrame {
         updateButton.addActionListener(e -> updateTodo());
         deleteButton.addActionListener(e -> deleteTodo());
         refreshButton.addActionListener(e -> refreshTodo());
-        filterComboBox.addActionListener(e -> loadTodos());
+        filterComboBox.addActionListener(e -> filterTodos())    ;
+    }
+    private void clearForm(){
+
     }
 
     private void addTodo() {
@@ -227,6 +230,8 @@ public class TodoAppGUI extends JFrame {
         titleField.setText("");
         descriptionArea.setText("");
         completedCheckBox.setSelected(false);
+        clearForm();
+        filterComboBox.setSelectedItem("All");
         loadTodos();
         todoTable.clearSelection();
     }
