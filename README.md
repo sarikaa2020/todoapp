@@ -52,4 +52,16 @@ todoapp/
 ├── pom.xml
 └── README.md
 
+How to Run the Project:
+
+🔹 Prerequisites
+
+->Java 8 or higher
+
+->Maven
+
+->MySQL Database
+
+->Git
+
 
