@@ -1,5 +1,4 @@
-
-Todo Application (Java GUI + Database)
+Todo Application (Java GUI + Database):
 
 A Java-based Todo Application built using Swing GUI, DAO design pattern, and database connectivity.
 This application allows users to create, update, delete, and manage tasks with persistent storage.
